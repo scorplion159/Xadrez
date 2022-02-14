@@ -22,7 +22,7 @@ public abstract class Peca {
         this.coluna = coluna;
     }
     public String getImagem() {
-        return imagem;
+        return this.imagem;
     }
     public void setImagem(String imagem) {
         this.imagem = imagem;
